@@ -1,0 +1,16 @@
+http:
+  host: "localhost"
+  port: "8084"
+
+railway_reservation_api:
+  host: "localhost"
+  port: "8081"
+  
+train_details_api:
+  host: "localhost"
+  port: "8082"
+  
+passengers_poi_api:
+  host: "localhost"
+  port: "8083"
+  storageBucket: "reservation-passengers-id-proofs"
