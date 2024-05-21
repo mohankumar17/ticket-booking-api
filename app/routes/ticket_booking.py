@@ -5,7 +5,7 @@ from pydantic import ValidationError
 
 from app.utils.custom_exception import DETAILS_NOT_FOUND, MIMETYPE_NOT_SUPPORTED
 from app.services.book_ticket import book_ticket
-from app.services.fetch_ticket_details import fetch_ticket
+from app.services.fetch_ticket import fetch_ticket
 from app.services.cancel_ticket import cancel_ticket
 from app.services.update_ticket import update_ticket
 
